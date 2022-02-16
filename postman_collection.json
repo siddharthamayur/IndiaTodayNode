@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "f7b2001f-617f-4c64-aeb1-8495a496b405",
+		"name": "ITG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4100/api/user/changeProfile",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/sid/Downloads/Sample-JPEG-Image-File-Download-scaled.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4100/api/user/modifyProfile?userName=siddharth123ddd&email=siddharthmayur3@gmail.com&password=nn@$12rW&phNumber=9200009&countryCode=+91&dob=2022-02-14T11:01:58.000&tob=12:30&gender=Female&maritialStatus=Married&language=English&timeSection=AM",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"api",
+						"user",
+						"modifyProfile"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "siddharth123ddd"
+						},
+						{
+							"key": "email",
+							"value": "siddharthmayur3@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "nn@$12rW"
+						},
+						{
+							"key": "phNumber",
+							"value": "9200009"
+						},
+						{
+							"key": "countryCode",
+							"value": "+91"
+						},
+						{
+							"key": "dob",
+							"value": "2022-02-14T11:01:58.000"
+						},
+						{
+							"key": "tob",
+							"value": "12:30"
+						},
+						{
+							"key": "gender",
+							"value": "Female"
+						},
+						{
+							"key": "maritialStatus",
+							"value": "Married"
+						},
+						{
+							"key": "language",
+							"value": "English"
+						},
+						{
+							"key": "timeSection",
+							"value": "AM"
+						}
+					]
+				},
+				"description": "It is used to update or add user details.\nall fields are sending in Query params except image which is of type \"form-data\" in body to upload profile image."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4100/api/user/myProfile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4100/api/user/myProfile?email=siddharthmayur3@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"api",
+						"user",
+						"myProfile"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "siddharthmayur3@gmail.com"
+						}
+					]
+				},
+				"description": "Use to get user profile details on the basis of email which is unique.\nIn Response I am providing s3 object url for Profile Image."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4100/api/feeds/getFeeds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4100/api/feeds/getFilters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"api",
+						"feeds",
+						"getFilters"
+					]
+				},
+				"description": "Used to get news feed on the basis of the selected filers and sorting.\nHere we have pagination as well.\nAnd in response I am providing s3 url of image or whatever we have so that we can use it on Client side to show file."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4100/api/feeds/getFilters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4100/api/feeds/getFilters",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"api",
+						"feeds",
+						"getFilters"
+					]
+				},
+				"description": "Used to get dynamic filters on the basis of data available."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4100/api/feeds/getFilters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4100/api/user/countryCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"api",
+						"user",
+						"countryCode"
+					]
+				},
+				"description": "Used to get Countries codes for country dial code dropdown"
+			},
+			"response": []
+		}
+	]
+}
