@@ -24,6 +24,9 @@ const feedsService = {
           filterQuery.$and.push(obj);
         }
       }
+      if(data.keyword !==undefined){
+        filterQuery.$and.push({ title: { $regex: data.keyword, $options: "i" } });
+      }
       if (filterQuery.$and.length === 0) delete filterQuery.$and;
       let getNews = await client
         .db(MONGO_DB)

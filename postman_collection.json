@@ -18,12 +18,7 @@
 							"type": "file",
 							"src": "/home/sid/Downloads/Sample-JPEG-Image-File-Download-scaled.jpg"
 						}
-					],
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					]
 				},
 				"url": {
 					"raw": "http://localhost:4100/api/user/modifyProfile?userName=siddharth123ddd&email=siddharthmayur3@gmail.com&password=nn@$12rW&phNumber=9200009&countryCode=+91&dob=2022-02-14T11:01:58.000&tob=12:30&gender=Female&maritialStatus=Married&language=English&timeSection=AM",
@@ -118,11 +113,23 @@
 		},
 		{
 			"name": "http://localhost:4100/api/feeds/getFeeds",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"from\": 0,\n\t\"size\": 10,\n\t\"orderBy\": \"asc\",\n    \"keyword\":\"Step\",\n\t\"filter\": {\n\t\t\"technology\": [\"UI\",\"Design\"],\n\t\t\"author\": [\"Siddhumoosewala\",\"Michael Rothstein\"]\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "http://localhost:4100/api/feeds/getFilters",
+					"raw": "http://localhost:4100/api/feeds/getFeeds",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -131,7 +138,7 @@
 					"path": [
 						"api",
 						"feeds",
-						"getFilters"
+						"getFeeds"
 					]
 				},
 				"description": "Used to get news feed on the basis of the selected filers and sorting.\nHere we have pagination as well.\nAnd in response I am providing s3 url of image or whatever we have so that we can use it on Client side to show file."

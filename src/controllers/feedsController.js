@@ -19,7 +19,8 @@ const feedsController = {
       const { error, value } = Joi.object({
         from: Joi.number().optional().default(0),
         size: Joi.number().min(1).optional().default(10),
-        orderBy: Joi.valid("asc", "desc").optional(),
+        orderBy: Joi.string().valid("asc", "desc").optional(),
+        keyword: Joi.string().optional().allow("",null),
         filter: {
           technology: Joi.array()
             .items(
