@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  assignment_app:
+    image: node:12.14-alpine
+    working_dir: /usr/src/app
+    container_name: assignment_app
+    depends_on:
+      - assignment_mongodb
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "$APP_PORT:$APP_PORT"
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - my_network
+    command: ./wait-for.sh assignment_mongodb:27017 -- npm run dev
+
+  assignment_mongodb:
+    image: mongo:4.2-bionic
+    container_name: assignment_mongodb
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
+      - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
+    ports:
+      - "$MONGO_PORT:27017"
+    volumes:
+      - assignment_mongodb_data:/data/db
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true
+
+volumes:
+  assignment_mongodb_data:

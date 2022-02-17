@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565cc"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Stephen A. isn't feeling the Thanksgiving love from the First Take team after Cowboys debate topic - ESPN",
+  "uploadedAt": "2020-11-26T16:03:03Z",
+  "technology": "Marketing",
+  "fileType": "Video",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/sample-mp4-file-small.mp4"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565cd"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Iowa reports 41 additional COVID-19 deaths",
+  "uploadedAt": "2020-11-26T15:55:00Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565ce"
+  },
+  "author": "Gael Fashingbauer Cooper",
+  "title": "Macy's 2020 Thanksgiving Day Parade",
+  "uploadedAt": "2020-11-26T15:45:00Z",
+  "technology": "Design",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/design.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565cf"
+  },
+  "author": "Martin Pengelly",
+  "title": "Speculation mounts after Flynn - The Guardian",
+  "uploadedAt": "2020-11-26T15:34:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d0"
+  },
+  "author": "Michael Rothstein",
+  "title": "Detroit Lions RB D'Andre Swift",
+  "uploadedAt": "2020-11-26T14:59:38Z",
+  "technology": "UI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/UI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d1"
+  },
+  "author": "Jon Porter",
+  "title": "Apple’s 10.2-inch iPad is up to $70 off",
+  "uploadedAt": "2020-11-26T14:57:02Z",
+  "technology": "AI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/AI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d2"
+  },
+  "author": "Associated Press",
+  "title": "Ethiopian army ordered to march",
+  "uploadedAt": "2020-11-26T14:25:03Z",
+  "technology": "Design",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/design.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d3"
+  },
+  "author": "Alice Scarsi",
+  "title": "Meghan Markle signals 'heart' of Archewell as future",
+  "uploadedAt": "2020-11-26T14:22:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d5"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Fantasy Football Rankings Week 12, 2020",
+  "uploadedAt": "2020-11-26T14:02:00Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d6"
+  },
+  "author": "Siddhumoosewala",
+  "title": "International Space Station - Thanksgiving in Zero-G - NASA",
+  "uploadedAt": "2020-11-26T14:00:07Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d7"
+  },
+  "author": "Sahil Kapur",
+  "title": "Biden predicted a GOP 'epiphany' ",
+  "uploadedAt": "2020-11-26T13:55:00Z",
+  "technology": "UI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/UI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565d8"
+  },
+  "author": "Aimee Picchi",
+  "title": "Will you get a stimulus check by December 31? - CBS News",
+  "uploadedAt": "2020-11-26T13:52:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565dc"
+  },
+  "author": "Aris Folley",
+  "title": "Joe and Jill Biden in Thanksgiving op-ed",
+  "uploadedAt": "2020-11-26T12:42:22Z",
+  "technology": "AI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/AI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565de"
+  },
+  "author": "Rich Smith",
+  "title": "SpaceX Starlink Just Won a Huge Customer - Motley Fool",
+  "uploadedAt": "2020-11-26T12:07:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e0"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Stephen A. isn't feeling the Thanksgiving",
+  "uploadedAt": "2022-01-26T16:03:03Z",
+  "technology": "Design",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/design.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e1"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Iowa reports 41 additional ",
+  "uploadedAt": "2020-11-26T15:55:00Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e2"
+  },
+  "author": "Gael Fashingbauer Cooper",
+  "title": "Macy's 2020 Thanksgiving Day Parade",
+  "uploadedAt": "2020-11-26T15:45:00Z",
+  "technology": "Design",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/design.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e3"
+  },
+  "author": "Martin Pengelly",
+  "title": "Speculation mounts over wh",
+  "uploadedAt": "2020-11-26T15:34:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e4"
+  },
+  "author": "Michael Rothstein",
+  "title": "Detroit Lions RB D'Andre ",
+  "uploadedAt": "2022-02-15T17:59:38Z",
+  "technology": "UI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/UI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e5"
+  },
+  "author": "Jon Porter",
+  "title": "Apple’s 10.2-inch iPad is",
+  "uploadedAt": "2020-11-26T14:57:02Z",
+  "technology": "AI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/AI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e6"
+  },
+  "author": "Associated Press",
+  "title": "Ethiopian army ordered to march ",
+  "uploadedAt": "2020-11-26T14:25:03Z",
+  "technology": "UI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/UI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e7"
+  },
+  "author": "Alice Scarsi",
+  "title": "Meghan Markle signals 'heart' o",
+  "uploadedAt": "2020-11-26T14:22:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565e9"
+  },
+  "author": "Siddhumoosewala",
+  "title": "Fantasy Football Rankings Week 12, 2020: Model that beat experts says start D.J. Moore, sit Michael Thomas - CBS Sports",
+  "uploadedAt": "2020-11-26T14:02:00Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565ea"
+  },
+  "author": "Siddhumoosewala",
+  "title": "International Space Station",
+  "uploadedAt": "2020-11-26T14:00:07Z",
+  "technology": "Marketing",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/marketing.jpeg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565eb"
+  },
+  "author": "Sahil Kapur",
+  "title": "Biden predicted a GOP 'epiphany' after the election.",
+  "uploadedAt": "2020-11-26T13:55:00Z",
+  "technology": "UI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/UI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565ec"
+  },
+  "author": "Aimee Picchi",
+  "title": "Will you get a stimulus check by December 31? - CBS News",
+  "uploadedAt": "2020-11-26T13:52:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565ef"
+  },
+  "author": "MLive.com",
+  "title": "National Dog Show 2020, how to",
+  "uploadedAt": "2020-11-26T13:32:00Z",
+  "technology": "AI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/AI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565f0"
+  },
+  "author": "Aris Folley",
+  "title": "Joe and Jill Biden in Thanksgiving",
+  "uploadedAt": "2020-11-26T12:42:22Z",
+  "technology": "AI",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/AI.jpg"
+},{
+  "_id": {
+    "$oid": "620c0848983b35f0d81565f1"
+  },
+  "author": "Rich Smith",
+  "title": "SpaceX Starlink Just Won a Huge",
+  "uploadedAt": "2020-11-26T12:07:00Z",
+  "technology": "Tech",
+  "fileType": "Image",
+  "fileUrl": "https://practice-node-itg.s3.ap-south-1.amazonaws.com/news/technology.jpg"
+}]
